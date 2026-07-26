@@ -1,7 +1,25 @@
 aid: drishti-technologies
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/drishti-technologies.png
 name: Drishti Technologies
-description: Drishti Technologies is a company surfaced as a portfolio company of a16z and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Drishti Technologies was a Mountain View, California company (founded 2016 by Prasad
+  Akella, Krishnendu Chaudhury, and Ashish Gupta) that applied AI-powered computer vision and video
+  analytics to manual assembly lines in manufacturing. Its platform digitized human actions on the
+  production floor to enable time-and-motion studies at scale, quality traceability, and continuous
+  improvement, with products including Drishti Trace (video capture and traceability) and Drishti
+  Flow (line analytics). The company was acquired by Apple in September 2023 and no longer operates
+  an independent public website, developer portal, or API surface — its domains (drishti.com,
+  drishti.ai) no longer resolve to a live product.
 url: https://raw.githubusercontent.com/api-evangelist/drishti-technologies/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,14 +27,33 @@ x-backed-by:
 - a16z
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: acquired
+x-acquired-by: Apple
+x-acquired-date: '2023-09'
+x-enrichment-note: 'Enrichment 2026-07-18: no live developer surface found. drishti.com does not
+  resolve (NXDOMAIN); drishti.ai redirects to an afternic domain-for-sale parking page;
+  getdrishti.com is a domain resale listing. No OpenAPI, docs, packages, MCP, or /.well-known
+  surface exists. Company defunct as an independent entity post-Apple acquisition. No artifacts
+  produced (no fabrication).'
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Manufacturing
+- Computer Vision
+- Artificial Intelligence
+- Video Analytics
+- Industrial Automation
+- Acquired
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
