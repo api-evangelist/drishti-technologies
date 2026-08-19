@@ -35,7 +35,7 @@ x-enrichment-note: 'Enrichment 2026-07-18: no live developer surface found. dris
   getdrishti.com is a domain resale listing. No OpenAPI, docs, packages, MCP, or /.well-known
   surface exists. Company defunct as an independent entity post-Apple acquisition. No artifacts
   produced (no fabrication).'
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-18'
 tags:
